@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 3000px;
+}
+
+.yukari_cik {
+    position: fixed;
+    background-color: #009898c5;
+    right: 3rem;
+    bottom: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.yukari_cik:hover {
+    box-shadow: 1px 1px 10px 1px #6e6e6e;
+}
+
+.yukari_cikiptal {
+    opacity: 1.0;
+}
+
+.ikon {
+    font-size: 1.8rem;
+    color: #fff;
+}
